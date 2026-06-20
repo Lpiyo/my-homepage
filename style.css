@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Malgun Gothic', sans-serif;
+}
+
+body{
+    background:#121212;
+    color:white;
+}
+
+header{
+    background:#1e1e1e;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+nav a:hover{
+    color:#00bfff;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background:linear-gradient(135deg,#0077ff,#00d4ff);
+}
+
+.hero h2{
+    font-size:3rem;
+}
+
+section{
+    padding:60px 10%;
+}
+
+.card{
+    background:#1e1e1e;
+    padding:20px;
+    margin-top:15px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card a{
+    color:#00bfff;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#1e1e1e;
+}
